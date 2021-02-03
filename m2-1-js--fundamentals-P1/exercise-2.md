@@ -67,11 +67,11 @@ easier to read. Like the gap between 2. and 1. in the example's solution.
 
 ```
 2. const array = [[1, [2, 3]]];
-1. const firstIndex = 0;
-4. const secondIndex = 1;
-5. const thirdIndex = = 0;
+1. const first = 0;
+4. const second = 1;
+5. const third = = 0;
 
-3. console.log(array[firstIndex][secondIndex][thirdIndex])
+3. console.log(array[first][second][third])
 ```
 
 ## Question 3: Log all numbers from 10 to 5
