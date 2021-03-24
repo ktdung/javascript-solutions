@@ -18,7 +18,16 @@ function exercise12() {
   // Write code between the lines (below)
   // -----------------------------------------------------------------
   for (let x = 2; x < 201; x++) {
-    if (x < 4) {
+    if (x < 2) {
+      console.log(x);
+    } else if (
+      x === 2 ||
+      x === 3 ||
+      x === 5 ||
+      x === 7 ||
+      x === 11 ||
+      x === 13
+    ) {
       console.log(x);
     } else if (
       x % 2 !== 0 &&

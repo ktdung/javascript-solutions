@@ -1,14 +1,13 @@
-// Exercise 5
+// Exercise 6
 //
 // Part 1 - Write
 // ---------------
-// Write a function accepts an indeterminate amount of numbers as arguments and returns the sum of the squares of all the numbers.
+// Write a function accepts an array of values and returns a new array of stringified values.
 //
-// - If any element is not a number, skip it.
-// - If no arguments are passed, return `undefined`
 
-const addNumbers = (...nums) => {
+const convertToString = (arr) => {
   // Insert missing solution please
+  return arr.map((item) => item.toString());
 };
 
 // Part 2 - Test
@@ -18,4 +17,4 @@ const addNumbers = (...nums) => {
 // Add some test cases in the test. The first one is done for you.
 
 // We need to export the function in order for our unit test to have access to it.
-module.exports = addNumbers;
+module.exports = convertToString;
